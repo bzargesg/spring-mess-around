@@ -12,8 +12,8 @@ import javax.persistence.Transient;
 
 @Entity
 public class Journal {
-  @Id;
-  @GeneratedValue(strategy = GenerationType.AUTO);
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
   private String title;
   private Date created;
