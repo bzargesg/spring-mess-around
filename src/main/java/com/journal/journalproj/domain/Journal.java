@@ -91,20 +91,6 @@ public class Journal {
     this.summary = summary;
   }
 
-  /**
-   * @return SimpleDateFormat return the format
-   */
-  public SimpleDateFormat getFormat() {
-    return format;
-  }
-
-  /**
-   * @param format the format to set
-   */
-  public void setFormat(SimpleDateFormat format) {
-    this.format = format;
-  }
-
   public String toString() {
     StringBuilder value = new StringBuilder("JournalEntry()");
     value.append("Id: ");
